@@ -31,5 +31,10 @@ namespace githubWork
             window1.Show();
             this.Close();
         }
+
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("HI! bro");
+        }
     }
 }

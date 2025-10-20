@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:githubWork"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
-    <Grid>
-        <Label Content="Hello" FontSize="56" HorizontalAlignment="Left" Margin="294,168,0,0" VerticalAlignment="Top"/>
+    <Grid Background="Aquamarine">
+        <Label Content="Hello!" FontSize="56" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Content="Back" FontSize="44" Click="Button_Click" Margin="10,336,619,10"></Button>
 
     </Grid>
 </Window>
